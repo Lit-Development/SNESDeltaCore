@@ -3,12 +3,12 @@ Pod::Spec.new do |spec|
   spec.version      = "0.1"
   spec.summary      = "Super Nintendo Entertainment System plug-in for Delta emulator."
   spec.description  = "iOS framework that wraps Snes9x to allow playing SNES games with Delta emulator."
-  spec.homepage     = "https://github.com/rileytestut/SNESDeltaCore"
+  spec.homepage     = "https://github.com/Lit-Development/SNESDeltaCore"
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "https://github.com/rileytestut/SNESDeltaCore.git" }
+  spec.source       = { :git => "https://github.com/Lit-Development/SNESDeltaCore.git" }
 
-  spec.author             = { "Riley Testut" => "riley@rileytestut.com" }
-  spec.social_media_url   = "https://twitter.com/rileytestut"
+  spec.author             = { "Chris Rittenhouse" => "dev@litritt.com" }
+  spec.social_media_url   = "https://twitter.com/lit_ritt"
   
   spec.source_files  = "SNESDeltaCore/**/*.{h,m,mm,swift}", "snes9x/*.{h,hpp}", "snes9x/apu/*.{h,hpp}"
   spec.public_header_files = "SNESDeltaCore/Types/SNESTypes.h", "SNESDeltaCore/Bridge/SNESEmulatorBridge.h"
