@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "SNESDeltaCore/Types/SNESTypes.h", "SNESDeltaCore/Bridge/SNESEmulatorBridge.h"
   spec.header_mappings_dir = ""
   spec.resource_bundles = {
-    "SNESDeltaCore" => ["SNESDeltaCore/**/*.deltamapping", "SNESDeltaCore/**/*.deltaskin"]
+    "SNESDeltaCore" => ["SNESDeltaCore/**/*.deltamapping", "SNESDeltaCore/**/*.ignitedskin"]
   }
   
   spec.dependency 'DeltaCore'

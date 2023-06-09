@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF02F6FE1D300B4A0000D872 /* Standard.deltaskin in Resources */ = {isa = PBXBuildFile; fileRef = BF02F6FD1D300B4A0000D872 /* Standard.deltaskin */; };
+		BF02F6FE1D300B4A0000D872 /* Standard.ignitedskin in Resources */ = {isa = PBXBuildFile; fileRef = BF02F6FD1D300B4A0000D872 /* Standard.ignitedskin */; };
 		BF3F86B11F40F9150095F38A /* Standard.deltamapping in Resources */ = {isa = PBXBuildFile; fileRef = BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */; };
 		BF69FBCD23E3AB110051BEEA /* SNESTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BF69FBCB23E3AB110051BEEA /* SNESTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF69FBCE23E3AB110051BEEA /* SNESTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = BF69FBCC23E3AB110051BEEA /* SNESTypes.m */; };
@@ -113,7 +113,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF02F6FD1D300B4A0000D872 /* Standard.deltaskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.deltaskin; path = "Controller Skin/Standard.deltaskin"; sourceTree = "<group>"; };
+		BF02F6FD1D300B4A0000D872 /* Standard.ignitedskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.ignitedskin; path = "Controller Skin/Standard.ignitedskin"; sourceTree = "<group>"; };
 		BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
 		BF69FBCB23E3AB110051BEEA /* SNESTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNESTypes.h; sourceTree = "<group>"; };
 		BF69FBCC23E3AB110051BEEA /* SNESTypes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNESTypes.m; sourceTree = "<group>"; };
@@ -657,7 +657,7 @@
 			isa = PBXGroup;
 			children = (
 				BF9F4FE01AAD8070004C9500 /* Info.plist */,
-				BF02F6FD1D300B4A0000D872 /* Standard.deltaskin */,
+				BF02F6FD1D300B4A0000D872 /* Standard.ignitedskin */,
 				BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */,
 			);
 			name = "Supporting Files";
@@ -779,7 +779,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF3F86B11F40F9150095F38A /* Standard.deltamapping in Resources */,
-				BF02F6FE1D300B4A0000D872 /* Standard.deltaskin in Resources */,
+				BF02F6FE1D300B4A0000D872 /* Standard.ignitedskin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
