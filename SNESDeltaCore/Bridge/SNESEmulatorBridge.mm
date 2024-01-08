@@ -319,12 +319,6 @@ void SNESFinalizeSamplesCallback(void *context);
     return frameDuration;
 }
 
-#pragma mark - Palette -
-
-- (void)updatePalette
-{
-}
-
 @end
 
 #pragma mark - SNESEmulatorBridge Callbacks -
