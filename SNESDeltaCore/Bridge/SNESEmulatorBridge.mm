@@ -82,7 +82,7 @@ void SNESFinalizeSamplesCallback(void *context);
     Settings.AutoDisplayMessages = YES;
     Settings.InitialInfoStringTimeout = 120;
     Settings.HDMATimingHack = 100;
-    Settings.BlockInvalidVRAMAccessMaster = YES;
+    Settings.BlockInvalidVRAMAccessMaster = ![self isInvalidVRAMAccessEnabled];
     Settings.StopEmulation = YES;
     Settings.WrongMovieStateProtection = YES;
     Settings.DumpStreamsMaxFrames = -1;

@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (class, nonatomic, readonly) SNESEmulatorBridge *sharedBridge;
 
+@property (nonatomic, getter=isInvalidVRAMAccessEnabled) BOOL invalidVRAMAccessEnabled;
+
 @end
 
 NS_ASSUME_NONNULL_END
