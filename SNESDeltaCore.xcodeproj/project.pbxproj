@@ -114,7 +114,7 @@
 
 /* Begin PBXFileReference section */
 		BF02F6FD1D300B4A0000D872 /* Standard.ignitedskin */ = {isa = PBXFileReference; lastKnownFileType = file; name = Standard.ignitedskin; path = "Controller Skin/Standard.ignitedskin"; sourceTree = "<group>"; };
-		BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
+		BF3F86B01F40F7FB0095F38A /* Standard.deltamapping */ = {isa = PBXFileReference; explicitFileType = file.bplist; path = Standard.deltamapping; sourceTree = "<group>"; };
 		BF69FBCB23E3AB110051BEEA /* SNESTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNESTypes.h; sourceTree = "<group>"; };
 		BF69FBCC23E3AB110051BEEA /* SNESTypes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNESTypes.m; sourceTree = "<group>"; };
 		BF6D1BDC1EB3F73200476805 /* libSnes9x.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSnes9x.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -978,7 +978,7 @@
 					"-DHAVE_STDINT_H",
 					"-DARM",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litritt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1045,7 +1045,7 @@
 					"-DHAVE_STDINT_H",
 					"-DARM",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.rileytestut.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.litritt.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

@@ -8,7 +8,7 @@
 
 #import "SNESTypes.h"
 
-GameType const GameTypeSNES = @"com.rileytestut.delta.game.snes";
+GameType const GameTypeSNES = @"com.litritt.ignited.game.snes";
 
 CheatType const CheatTypeActionReplay = @"ActionReplay";
 CheatType const CheatTypeGameGenie = @"GameGenie";

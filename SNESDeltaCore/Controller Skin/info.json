@@ -1,7 +1,7 @@
 {
   "name": "Standard SNES",
-  "identifier": "com.delta.snes.standard",
-  "gameTypeIdentifier": "com.rileytestut.delta.game.snes",
+  "identifier": "com.ignited.snes.standard",
+  "gameTypeIdentifier": "com.litritt.ignited.game.snes",
   "debug": false,
   "representations": {
     "iphone": {
